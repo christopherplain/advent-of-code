@@ -53,8 +53,8 @@ def sum_calibration(doc):
     return sum
 
 
-test_result = sum_calibration("day01_02_test_input")
+test_result = sum_calibration("part02_test_input")
 print(f"Sum of test input calibration values: {test_result}")
 
-puzzle_result = sum_calibration("day01_puzzle_input")
+puzzle_result = sum_calibration("puzzle_input")
 print(f"Sum of puzzle input calibration values: {puzzle_result}")
