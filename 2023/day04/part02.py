@@ -49,7 +49,7 @@ def scratchcard_points(table):
 
 
 test_result = scratchcard_points("test_input")
-print(f"Sum of test input part numbers: {test_result}")
+print(f"test input result: {test_result}")
 
 puzzle_result = scratchcard_points("puzzle_input")
-print(f"Sum of puzzle input part numbers: {puzzle_result}")
+print(f"puzzle input result: {puzzle_result}")
